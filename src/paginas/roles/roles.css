@@ -1,0 +1,132 @@
+.roll{
+    flex: 4;
+    padding: 20px;
+
+}
+.rollTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.rollAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color:  teal;
+    color:  white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rollShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.rollUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.rollShowTop{
+    display: flex;
+    align-items: center;
+}
+.rollShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.rollShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.rollShowUsername{
+    font-weight: 600;
+}
+.rollShowUserTitle{
+    font-weight: 300;
+}
+.rollShowBottom{
+    margin-top: 20px;
+}
+.rollShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.rollShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.rollShowIcon{
+    font-size: 16px !important;
+}
+.rollShowInfoTitle{
+    margin-left: 10px;
+}
+.rollUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.rollUpdateForm{
+    display: flex;
+    justify-content: space-between;
+}
+.rollUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.rollUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.rollUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.rollUpdateInputMax{
+    border: none;
+    width: 400px;
+    height: 35px;
+    border-bottom: 1px solid gray;
+}
+.rollUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rollUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.rollUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.rollUpdateIcon{
+    cursor: pointer;
+}
+.rollUpdateButton{
+    width: 100px;
+    border: none;
+    padding: 5px;
+    background-color: darkblue;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}

@@ -1,0 +1,111 @@
+.alquiler{
+    flex: 4;
+    padding: 20px;
+}
+.alquilerTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.alquilerAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color:  teal;
+    color:  white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.vehiculoTop{
+    display: flex;
+}
+.vehiculoTopLeft{
+    flex: 3;
+}
+.vehiculoTopRight{
+    flex: 1;
+}
+.vehiculoTopRight{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.vehiculoInfoImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.vehiculoInfoTop{
+    display: flex;
+    align-items: center;
+}
+.vehiculoName{
+    font-weight: 600;
+}
+.vehiculoInfoBottom{
+    margin-top: 10px;
+}
+.vehiculoInfoItem{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.vehiculoInfoValue{
+    font-weight: 300;
+}
+.vehiculoBottom{
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px #000000; 
+    box-shadow: 0px 0px 15px -10px #000000;
+}
+.vehiculoForm{
+    display: flex;
+    justify-content: space-between;
+}
+.vehiculoFormLeft{
+    display: flex;
+    flex-direction: column;
+}
+.vehiculoFormLeft >label{
+    margin-bottom: 10px;
+    color: gray;
+}
+.vehiculoFormLeft >input{
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+.vehiculoFormLeft >select{
+    margin-bottom: 10px;
+}
+.vehiculoUploadImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.vehiculoFormRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.vehiculoUpload{
+    display: flex;
+    align-items: center;
+}
+.vehiculoButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

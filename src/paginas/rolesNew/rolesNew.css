@@ -1,0 +1,42 @@
+.rolesNew{
+    flex: 4;
+    padding: 20px;
+}
+.rolesNewForm{
+    margin-top: 10px;
+    
+}
+.rolesNewItem{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.rolesNewExtend{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.rolesNewItem > label{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.rolesNewItem > input{
+    padding: 10px;
+}
+.rolesNewItem > select{
+    padding: 10px;
+}
+.rolesNewButton{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
